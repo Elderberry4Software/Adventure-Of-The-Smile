@@ -1,0 +1,17 @@
+name: adventureofthesmile
+version: git
+summary: Adventure Of The Smile
+description: Adventure Of The Smile
+
+grade: devel
+confinement: devmode
+
+apps:
+  adventureofthesmile:
+  command: bin/adventureofthesmile
+
+parts:
+  adventureofthesmile:
+    plugin: python
+    python-version: python3
+    source: .
